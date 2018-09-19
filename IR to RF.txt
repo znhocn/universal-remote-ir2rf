@@ -1,0 +1,19 @@
+## Links
+
+https://github.com/z3t0/Arduino-IRremote/wiki/Hardware-setup
+https://github.com/sui77/rc-switch/wiki/HowTo_Receive
+https://github.com/sui77/rc-switch/issues/143
+https://forum.arduino.cc/index.php?topic=257371.0
+https://forum.arduino.cc/index.php?topic=424011.0
+https://arduinodiy.wordpress.com/2015/03/29/sending-wireless-data-from-one-attiny85-to-another/
+https://arduinodiy.wordpress.com/2015/04/24/sending-sensor-data-wireless-433mhz-with-an-attiny85-or-attiny-45-with-manchestercode/
+https://arduino.stackexchange.com/questions/6705/attiny85-and-433mhz-rf
+https://arduino.stackexchange.com/questions/35826/manchester-433mhz-nano-to-attiny85
+https://arduino.stackexchange.com/questions/6681/rcswitch-on-attiny85
+https://www.tindie.com/products/MakersBox/smd-challenge/
+http://highlowtech.org/?p=1695
+http://highlowtech.org/?p=1706
+https://www.instructables.com/id/Attiny-IR-library/
+https://gist.github.com/SeeJayDee/caa9b5cc29246df44e45b8e7d1b1cdc5
+https://forum.arduino.cc/index.php?topic=346847.0
+https://www.hackster.io/rayburne/infrared-dedicated-decoder-c10052
