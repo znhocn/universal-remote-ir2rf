@@ -1,4 +1,4 @@
-# Universal Remote IR to RF
+# Xiaomi Universal Remote IR to RF
 
 Designed to add RF remote control function to the Xiaomi universal remote control
 
