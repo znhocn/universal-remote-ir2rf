@@ -3,20 +3,15 @@
 #include <RCSwitch.h>
 
 RCSwitch mySwitch = RCSwitch();
-
-//int RECV_PIN = 11;
-//IRrecv irrecv(RECV_PIN);
-IRsend irsend;
-IRrecv irrecv(7);
+IRsend irsend;     // IR LED Transmitter is connected to Arduino pin #3
+IRrecv irrecv(5);  // IR VS1838B Receiver is connected to Arduino pin #5 #7
 decode_results results;
 
 void setup() {
   Serial.begin(9600);
-  mySwitch.enableReceive(0);  // RF Receiver on interrupt 0 => that is pin #2
-  mySwitch.enableTransmit(6);  // RF Transmitter is connected to Arduino pin #6
-  irrecv.enableIRIn();  // Start the receiver
-  // IR LED Transmitter is connected to Arduino pin #3
-  // IR VS1838B Receiver is connected to Arduino pin #7
+  mySwitch.enableReceive(0);   // RF Receiver on interrupt 0 => that is pin #2
+  mySwitch.enableTransmit(4);  // RF Transmitter is connected to Arduino pin #4 #6
+  irrecv.enableIRIn();
   
   // Optional set pulse length.
   // mySwitch.setPulseLength(320);
